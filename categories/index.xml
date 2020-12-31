@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Full 90 Analytica</title>
+    <link>https://simonfisher22.github.io/categories/</link>
+    <description>Recent content in Categories on Full 90 Analytica</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Dec 2020 12:00:00 +0000</lastBuildDate><atom:link href="https://simonfisher22.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>https://simonfisher22.github.io/categories/blog/</link>
+      <pubDate>Mon, 14 Dec 2020 12:00:00 +0000</pubDate>
+      
+      <guid>https://simonfisher22.github.io/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

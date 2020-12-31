@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tops on Full 90 Analytica</title>
+    <link>https://simonfisher22.github.io/top/</link>
+    <description>Recent content in Tops on Full 90 Analytica</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://simonfisher22.github.io/top/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://simonfisher22.github.io/top/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonfisher22.github.io/top/about/</guid>
+      <description> Simon Fisher is a data analyst with a passion for applying mathematical and econometric analysis to football. He has experience working with multiple MLS clubs (Orlando City F.C., Nashville S.C.), as well a consulting with USMNT.
+Projects  [Team Shape Analysis] [Offensive Repossession Ids]  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://simonfisher22.github.io/top/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonfisher22.github.io/top/resources/</guid>
+      <description>Resources Books   Soccermatics: Mathematical Adventures in the Beautiful Game
+  Football Hackers: The Science and Art of a Data Revolution
+  Soccernomics
+  Money and Soccer: A Soccernomics Guide
+  The Numbers Game: Why Everything You Know About Soccer Is Wrong
+  Python   Friends of Tracking
+  FC Python
+  </description>
+    </item>
+    
+  </channel>
+</rss>

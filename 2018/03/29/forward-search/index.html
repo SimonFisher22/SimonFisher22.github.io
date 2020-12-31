@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="Full 90 Analytica">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="https://simonfisher22.github.io/img/home-bg-ultras.jpg">
+    <meta property="twitter:image" content="https://simonfisher22.github.io/img/home-bg-ultras.jpg" />
+    
+
+    
+    <meta name="title" content="Sharpening the Blade" />
+    <meta property="og:title" content="Sharpening the Blade" />
+    <meta property="twitter:title" content="Sharpening the Blade" />
+    
+
+    
+    <meta name="description" content="What&#39;s gone wrong for Sheffield United, what can change, looking forward to the january transfer window.">
+    <meta property="og:description" content="What&#39;s gone wrong for Sheffield United, what can change, looking forward to the january transfer window." />
+    <meta property="twitter:description" content="What&#39;s gone wrong for Sheffield United, what can change, looking forward to the january transfer window." />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="Full 90, Full 90 Analytica">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>Sharpening the Blade-Full 90 Analytica</title>
+
+    <link rel="canonical" href="/2018/03/29/forward-search/">
+
+    <link rel="stylesheet" href="/css/iDisqus.min.css"/>
+	
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+    
+    
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    
+    
+
+    
+    
+    <script src="/js/jquery.min.js"></script>
+    
+    
+    <script src="/js/bootstrap.min.js"></script>
+    
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Full 90 Analytica</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                        
+                        <li>
+                            <a href="/categories/blog">blog</a>
+                        </li>
+                        
+                    
+                    
+		    
+                        <li><a href="/top/resources/">RESOURCES</a></li>
+                    
+
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3d/The_Jesscia_Ennis_Stand_at_Bramall_Lane%2C_Sheffield_United_FC_stadium.JPG')
+    }
+</style>
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/data-scouting" title="Data Scouting">
+                            Data Scouting
+                        </a>
+                        
+                        <a class="tag" href="/tags/xg" title="xG">
+                            xG
+                        </a>
+                        
+                        <a class="tag" href="/tags/big-5" title="Big 5">
+                            Big 5
+                        </a>
+                        
+                    </div>
+                    <h1>Sharpening the Blade</h1>
+                    <h2 class="subheading">Analytical Process for Talent Discovery</h2>
+                    <span class="meta">
+                        Posted by 
+                        
+                            Simon Fisher
+                         
+                        on 
+                        Monday, December 14, 2020
+                        
+                        
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-11 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <header>
+                    <h2>Contents</h2>
+                </header>
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#intro">Intro</a></li>
+    <li><a href="#spending-proposition">Spending Proposition</a></li>
+    <li><a href="#player-profile">Player Profile</a></li>
+    <li><a href="#technical-data-scouting">Technical Data Scouting</a></li>
+    <li><a href="#transfer-targets">Transfer Targets</a></li>
+  </ul>
+</nav>
+                
+                <p><em>*Written following week 12</em></p>
+<h1 id="intro">Intro</h1>
+<p><strong>Goals are the currency of football</strong>, and it&rsquo;s no secret that Sheffield United have severly lacked in this category. With 5 goals in twelve matches, the Blades are a far-cry from where they sat last year at this time. After 12 matches in the previous season, Sheffield United sat in a European position with 13 goals in their account. So why has the club parted ways with their elite company and found themselves at the bottom of the table?</p>
+<p><em>What earth shattering changes are the culprit of Sheffield United&rsquo;s fall from grace?</em></p>
+<p>The frequent culprits are squad turnover and injuries. Sheffield United have experienced a potent combination of the two. Most notably, the club has faced the loss of the starting goalkeeper, Dean Henderson, who has returned to Manchester United from loan. The Blades also experienced the loss of attacking spark, Mousset, through injury.</p>
+<p>These two changes have contributed to diminished attacking production as well significant step away from the stingy defense that propelled through through the 2019-20 season. While the sharp decline in defensive production that many attribute to a change in keeping has undoubtedly shown them a difficult ride, their decline in offensive production should not go unnoticed. Sheffield United&rsquo;s scoring rate (Goals/90) last season (0.95) has been reduced by over half during this year&rsquo;s campaign (0.42). This combined with their defensive woes is not a recipe for success. The dependable goal scorers of last season have been left knocking without answer thus far. Sharp and Mousset have been blanked, while teammates McGoldrick and McBurnie have combined to put the ball past opposing keepers only three times. Goal scoring prodigy Rhian Brewster has yet to provide return on his select minutes and is appearing to be an expensive incoming through matchweek 12.</p>
+<hr>
+<h1 id="spending-proposition">Spending Proposition</h1>
+<p>With the Blades starving for goal scoring production, the €26 M spent to bring in Brewster seem all the more costly. Brewster&rsquo;s performances for Sheffield have been brutally unproductive. With the January transfer window approaching rapidly, Sheffield United will surely seek acquisitions in order to bolster their squad and salvage what they can from the remainder of the season. One of the few consolations Blades fans can take is that 2/3 of the season remains&hellip; There&rsquo;s still time to bounce back!</p>
+<p><em>Can we identify a handful of players that have the potential to add to SUFC&rsquo;s goal scoring tally?</em></p>
+<p>Maybe Brewster will pan out? Maybe the Blades will find the favor of Lady Luck (or as I like to call her Random Variance) as their xGF (11.5) have outperformed their actual goals significantly. That being said, the club would remain in a relegation position when ranked on expected goal difference. Many hypotheses could be made, but one thing is for certain: change must be made!</p>
+<p>Imagine if Brewster had never been signed and Sheffield United still had the €26 M to search for potential transfer targets this January. Can we identify ideal replacement signings? Even having spent that fee, the following remains a useful exercise that may reveal some strategic insight&hellip; Let&rsquo;s find a suitable player to dress in Red &amp; White and turn this ship around.</p>
+<p><strong>With €26,000,000 in our pocket, it&rsquo;s time to hit the transfer market!</strong></p>
+<hr>
+<h1 id="player-profile">Player Profile</h1>
+<p><strong>The first step in our target search is to develop a player profile for our ideal transfer target.</strong> It&rsquo;s crucially important that we understand the team&rsquo;s tactics, so that we have a better chance of identifying the type of player that will compliment the current squad.</p>
+<p>If you are not familiar with Chris Wilder&rsquo;s tactical ideas, watch the video below.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/idTP4CttsaU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>Wilder&rsquo;s two forward system provides us with flexibility in the role and tendencies of our target. First and foremost, we are looking for a player that will significantly improve the goal scoring production. Last season, the Blades thrived on overloading advanced wide areas, attacking the byline, and capitalizing on searching crosses and incisive cutbacks. Only Manchester City and Liverpool crossed more often than Sheffield United. Many of SUFC&rsquo;s most dangerous goal scoring opportunities occurred between the posts and inside 12 yards.</p>
+<p>We can see this is the case from the video below.</p>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/U9Tjk-AsLps" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<em>Billy Sharp&hellip;what a legend!</em></p>
+<p>Furthermore, through shot and goal maps provided by <a href="https://www.aleagueapart.com/">A League Apart</a>, we can clearly see the region the majority of Sheffield United&rsquo;s shots and goals occur. These visualizations help us to validate information and insights, gathered from the video above.</p>
+<p>
+  <img src="/img/sufc-transfer-target/sheffield-united-goalmap.png" alt="Sheffield Goal Map">
+
+</p>
+<p>
+  <img src="/img/sufc-transfer-target/sheffield-shot-map.png" alt="Sheffield Shot Map">
+
+</p>
+<p>Ideally, if the majority of Sheffield United&rsquo;s chances occur within 12 yards and between the posts, we want a forward who will be active in this area. With their most dangerous chances coming from crosses, we are looking for a forward to get on the end of these chances. This gives us some direction in our identification process.</p>
+<p>Our objective is to find a transfer target who will increase the offensive efficiency. We want a goal-scoring forward who takes high quality chances in and around the goal. We want a forward who will run between the posts to get on the end of crosses and cut-backs from driving wide players. As shown by the two maps above, we are looking for a forward who will capitalize on opportunity in the highlighted areas.</p>
+<p>In summary, we need a forward with impressive attacking production, one that attempts high quality scoring chances, while maintaining a level of clinical finishing.</p>
+<hr>
+<h1 id="technical-data-scouting">Technical Data Scouting</h1>
+<p><strong>Process</strong></p>
+<p>Now that we have our player profile outlined, it&rsquo;s time to dive into the data. The process is straightforward. First, we objectively define the desired traits using the available data. Next, we compare candidates from our data set in relation to the chosen metric. Finally, we choose a threshold, cut players who aren&rsquo;t up to par and shorten our list. These three steps are repeated until we have whittled down our original database of players into a workable &ldquo;shortlist&rdquo;. From our shortlist we can then watch more video on a select number of players to understand any context that we might not have captured in our data scouting approach. Eliminating players who do not meet the threshold for our quantitative profile saves endless hours of unneccessary video analysis.</p>
+<p><strong>How does our profile translate into the data?</strong></p>
+<p>It&rsquo;s time to define our qualitative profile in terms of the data. The three traits that we identified were: exceptional offensive production, high quality taking, and clinical finishing. I have chosen to define them as such:</p>
+<ul>
+<li>
+<p><strong>Offensive Production: (xG/90)</strong> This is a common measure of offensive production and the statistic provides two advantages. First, it quantifies production in terms of chance quality instead of chance outcome. There is much more variance in goal scoring and it is well known (and statistically shown) that forwards can go through periods of streaky goal scoring. However, in the long run, the goal scoring production of a forward who is consistently generating high quality chances will converge to their goal scoring expectation. Secondly, this statistic is standardized by minutes played.This eliminates the bias of playing time and will not exclude highly productive forwards that make the most of their select minutes.</p>
+<p>*<em>Sample size should be kept in consideration</em></p>
+</li>
+<li>
+<p><strong>Chance Quality: (xG/Shot)</strong> This statistic is a measure of average chance quality. It&rsquo;s important to note that this provides information about the chance, not the shot itself. It tells us the story of the kind of chances the forward is taking, and through that, much can be inferred about where these chances occur. It includes no information about the shot itself or what happens after the ball is struck.</p>
+</li>
+<li>
+<p><strong>Finishing Ability: (Shots on Target %)</strong> I use this statistic to measure finishing ability. It is even more pertinent as shot distance decreases. This statistic is especially salient in the case of close range, one-touch finishing. In this sense it is a measure of the forwards ability to direct the ball on goal. Shots off target are useless.</p>
+</li>
+</ul>
+<p><strong>Transfer Search</strong></p>
+<p>For our search, we&rsquo;ll be using shooting data provided by <a href="https://fbref.com/en/comps/Big5/2019-2020/shooting/players/2019-2020-Big-5-European-Leagues-Stats">FBref&rsquo;s Big 5 European Leagues (2019-2020)</a> data set. After some initial data processing, it&rsquo;s time to narrow down the list&hellip;</p>
+<p>We want to ensure that there is sufficient data on players that we compare so sample size must be addressed. Ideally, true performance levels will be accurately reflected through statistical output, however in the case of limited sample size, it is possible for large variance from the true performance level to occur. For this reason I have chosen 450 minutes (5 matches worth) as the minimum threshold. We don&rsquo;t want to miss out on up and coming talents!</p>
+<p>*<em>It&rsquo;s important to note that players with less minutes may need further evaluation in order to determine if their limited sample size is a true representation of their performance levels</em></p>
+<p>Let&rsquo;s first rank our database by &lsquo;xG/90&rsquo;. As a quick sanity check of the competency of our metric, when ranked by &lsquo;xG/90&rsquo;, out of 2,400 players, here are the first five&hellip;
+
+  <img src="/img/sufc-transfer-target/xg90rank-head.png" alt="xG/90 Ranked Head">
+
+
+I think we can be pretty confident in &lsquo;xG/90&rsquo; ability to measure offensive productivity as these five players are among the very top of European forwards. Notably, the next five include Aguero, Icardi, and Haaland.</p>
+<p>Based on this metric, it is clear the the top end is populated by some very high quality forwards. Of course, all the above names are outside of our budget, but surely there are some affordable forwards amongst the crowd. Since we are confident that &lsquo;xG/90&rsquo; is a useful initial filter, let&rsquo;s narrow our pool down. I decided to use the 75 percentile as a measure of acceptable offensive production.</p>
+<p><strong>Next</strong></p>
+<p>Our next criterion was that our forward take high quality chances. We wanted a forward who would be able to get on the end of cutbacks and crosses in dangerous areas around the goal. As mentioned above, &lsquo;xG/Shot&rsquo; measures average chance quality, but can also be used as a proxy to find forwards who are active close to goal.</p>
+<p>Again as a sanity check let&rsquo;s rank the players by this metric.</p>
+<p>Low and behold! the tap in king!</p>
+<p>
+  <img src="/img/sufc-transfer-target/tap-in-king.png" alt="Tap-in King">
+
+</p>
+<p>Seeing Icardi top the list gives us further confidence in the usefulness of &lsquo;xG/Shot&rsquo; in describing chance quality, as he reigns as the cutback tap in king of Europe. And if you don&rsquo;t believe me, take some time to enjoy the highly produced montage of exquisite finesse and top level walk-ins below.</p>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/Xq57lGOxCWk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+  <img src="/img/sufc-transfer-target/mauro-icardi-goalmap.png" alt="Mauro Icardi goal map">
+
+</p>
+<p>All jokes aside, Icardi may be <em>the</em> forward Sheffield United needs. An instinctual goal poacher. Other players ranked in the top included Haaland, Cavani, Alcacer, however, this time there is a broader array of affordability amongst them.</p>
+<p>Furthermore, 2019/20 Billy Sharp makes the top 30 matching Icardi&rsquo;s &lsquo;Goals/Shot on Target&rsquo; (0.6). This gives us real confidence in our process thus far, as the 2019-2020 Billy Sharp is the exact player profile that we are attempting to replicate.
+
+  <img src="/img/sufc-transfer-target/billy-sharp-rank.png" alt="Billy Sharp rank">
+
+</p>
+<p><strong>Final Step</strong></p>
+<p>Our final requirement was that our forward be clinical. When getting on the end of these cutbacks and crosses, shots off target are useless. These are dangerous scoring opportunities so long as the ball is directed on frame. We&rsquo;re looking for a forward with excellent Shots on Target percentage; our measure of clinical finishing.</p>
+<p>When ranked by SoT%, here are our top 4:
+
+  <img src="/img/sufc-transfer-target/sot-rank.png" alt="SoT% Head">
+
+</p>
+<p>Now I haven&rsquo;t heard of Josh Maja, when he tops the table amongst this company it&rsquo;s fair to say that he deserves a look.</p>
+<p>After some more filtering, only 40 players remain in our data set. Among these 40, fewer wihtin our initial budget. I pulled together a target shortlist from the remaining players.</p>
+<p><strong>Final Short List</strong></p>
+<p>
+  <img src="/img/sufc-transfer-target/final-shortlist.png" alt="Target Shortlist">
+
+</p>
+<p>Now that we have our final shortlist, we have greatly reduced the amount of work it will take to qualitativley scout a fit. I have selected three from this list that I believe meet our financial and performance criteria.</p>
+<h1 id="transfer-targets">Transfer Targets</h1>
+<p><strong>Josh Maja, Bordeaux &ndash;  €6.50 M</strong></p>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/Jp49OZFOTzE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+  <img src="/img/sufc-transfer-target/josh-maja-shotmap.png" alt="Josh Maja Shotmap">
+
+</p>
+<p><strong>Francesco Caputo, Sassuolo &ndash; €7.50 M</strong></p>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/_qEvSX5ePuY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+  <img src="/img/sufc-transfer-target/francesco-caputo-shotmap.png" alt="Josh Maja Shotmap">
+
+</p>
+<p>Billy sharp  performed at an older age, dont fear</p>
+<p><strong>Josh King, Bournemouth &ndash; €11.00 M</strong>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/9L9lYjUPQKs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+  <img src="/img/sufc-transfer-target/josh-king-shotmap.png" alt="Josh Maja Shotmap">
+
+</p>
+<p>Here&rsquo;s one that may make a lot of sense! With prior premier league experience, and rumored to be looking for a derparture from Bournemouth. Arguably at the peak in his playing years.</p>
+
+
+                
+
+                <hr>
+                <ul class="pager">
+                    
+                    
+                </ul>
+
+                
+<div id="disqus-comment"></div>
+
+
+
+            </div>
+            
+            <div class="
+                col-lg-11 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+
+                
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                   
+                    
+                    <li>
+                        <a href="mailto:full90stat@gmail.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    <li>
+                        <a href="https://twitter.com/90_stat">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+
+                    
+
+		    
+                    
+                    
+                    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/simon-fisher-323754182/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+                </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; Full 90 Analytica 2020
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        async("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    async("https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+</body>
+</html>
